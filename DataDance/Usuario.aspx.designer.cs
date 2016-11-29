@@ -94,15 +94,6 @@ namespace DataDance {
         protected global::System.Web.UI.WebControls.DropDownList catdrop;
         
         /// <summary>
-        /// FotoSelect control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload FotoSelect;
-        
-        /// <summary>
         /// btnAgregar control.
         /// </summary>
         /// <remarks>
@@ -128,15 +119,6 @@ namespace DataDance {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox editapel;
-        
-        /// <summary>
-        /// editcontra control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox editcontra;
         
         /// <summary>
         /// edittipo control.
@@ -182,15 +164,6 @@ namespace DataDance {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList editcat;
-        
-        /// <summary>
-        /// FileUpload1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
         
         /// <summary>
         /// Button2 control.

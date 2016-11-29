@@ -19,17 +19,11 @@
                     </asp:LinkButton>
                 </ItemTemplate>
             </asp:TemplateField>
-            <asp:TemplateField>
-                <HeaderTemplate>Imagen</HeaderTemplate>
-                <ItemTemplate>
-                    <asp:Image runat="server" ID="imagen" ImageUrl ="~/images/op1.png" style="width:100px;"/>
-                </ItemTemplate>
-            </asp:TemplateField>
         </Columns>
     </asp:GridView>
     </div>
         </div>
-    <!-- Modal add and update-->
+    <!-- Modal add -->
               <div class="modal fade " id="myModal" role="dialog">
                 <div class="modal-dialog">    
                   <!-- Modal content-->
@@ -80,13 +74,7 @@
                                           <asp:Label runat="server"><b>Categoría:</b></asp:Label>
                                           <asp:DropDownList runat="server" ID="catdrop" CssClass="form-control"><asp:ListItem>Categoría...</asp:ListItem></asp:DropDownList>
                                       </div>                
-                            </div>   
-                          <div class="row form-group">
-                              <div class="col-md-4">
-                                           <asp:Label runat="server"><b>Foto:</b></asp:Label>
-                                           <asp:FileUpload runat="server" ID="FotoSelect" CssClass="btn btn-success"/>
-                                       </div>    
-                          </div>                      
+                            </div>                    
                     </div>
                    </div>
                     <div class="modal-footer">
@@ -121,10 +109,6 @@
                              </div>   
                              <div class="row form-group" id="row_nombre1up">
                                       <div class="col-md-4">
-                                          <asp:Label runat="server"><b>Contraseña:</b></asp:Label>
-                                          <asp:TextBox runat="server" ID="editcontra" placeHolder="Contraseña" CssClass="form-control" TextMode="Password"></asp:TextBox>
-                                      </div>
-                                      <div class="col-md-4">
                                           <asp:Label runat="server"><b>Tipo Usuario:</b></asp:Label>
                                           <asp:DropDownList runat="server" ID="edittipo" CssClass="form-control"><asp:ListItem>Tipo de usuario...</asp:ListItem></asp:DropDownList>
                                       </div>
@@ -147,13 +131,7 @@
                                           <asp:Label runat="server"><b>Categoría:</b></asp:Label>
                                           <asp:DropDownList runat="server" ID="editcat" CssClass="form-control"><asp:ListItem>Categoría...</asp:ListItem></asp:DropDownList>
                                       </div>                
-                            </div>   
-                          <div class="row form-group">
-                              <div class="col-md-4">
-                                           <asp:Label runat="server"><b>Foto:</b></asp:Label>
-                                           <asp:FileUpload runat="server" ID="FileUpload1" CssClass="btn btn-success"/>
-                                       </div>    
-                          </div>                      
+                            </div>                      
                     </div>
                    </div>
                     <div class="modal-footer">
