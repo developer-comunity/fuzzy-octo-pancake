@@ -87,6 +87,7 @@
     <Content Include="css\bootstrap.min.css.map" />
     <Content Include="Principal.Master" />
     <Content Include="css\bootswatch.less" />
+    <Content Include="Vestuario.aspx" />
     <Content Include="Welcome.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -140,6 +141,13 @@
     </Compile>
     <Compile Include="Usuario.aspx.designer.cs">
       <DependentUpon>Usuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vestuario.aspx.cs">
+      <DependentUpon>Vestuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vestuario.aspx.designer.cs">
+      <DependentUpon>Vestuario.aspx</DependentUpon>
     </Compile>
     <Compile Include="Welcome.aspx.cs">
       <DependentUpon>Welcome.aspx</DependentUpon>
